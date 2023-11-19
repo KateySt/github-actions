@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: Print to conosole
         run: echo Hello GH actions!!
+      - name: Print a few lines
+        run: |
+          echo First line !
+          echo Second Line !
